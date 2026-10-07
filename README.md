@@ -17,7 +17,7 @@ API REST para gestionar un catálogo de productos, hecha con Node.js y Express.
 ## Instalación
 
 ```bash
-git clone <URL-del-repositorio>
+git clone https://github.com/antlobatoa/api-productos-final.git
 cd api-productos-final
 npm install
 npm start
@@ -148,4 +148,6 @@ Los datos se guardan en memoria, así que se restablecen cada vez que se reinici
 
 ## Despliegue
 
-URL en Render: _pendiente de publicar_
+URL en Render: https://api-productos-final.onrender.com
+
+El plan gratuito de Render duerme el servicio tras unos minutos sin uso, así que la primera petición puede tardar hasta un minuto en responder.
